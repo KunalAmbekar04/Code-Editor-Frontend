@@ -1,0 +1,38 @@
+.bttn {
+  border: none;
+  background-color: white;
+  box-shadow: inset 1px 0px 5px #babebe;
+  height: 80%;
+  margin: 0.1rem;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.reset {
+  /* position: absolute;
+  right: 0; */
+  margin: 4px;
+}
+
+.fullscreen {
+  /* position: absolute; */
+  /* right: 60px; */
+  margin: 4px;
+}
+
+.run {
+  width: 100px;
+  background-color: #e31d3b !important;
+  color: #fff !important;
+  font-weight: bolder !important;
+  margin-left: auto !important;
+}
+
+.run:hover,
+.run:visited {
+  color: #fff;
+}
+
+.downloadCode {
+  margin: 4px;
+}

@@ -1,0 +1,27 @@
+.nav-bar {
+  background-color: #3A3A3A;
+  height: 8%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 5px 20px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 20px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 20px -6px rgba(0, 0, 0, 0.75); */
+}
+
+.nav-bar h1 {
+  margin: 0;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.saveBtn {
+  width: 10.45rem;
+  background-color: #7717d1 !important;
+  height: 4rem;
+  color: #fff !important;
+  font-weight: bolder !important;
+  margin-left: auto !important;
+  margin-right: 4% !important;
+}

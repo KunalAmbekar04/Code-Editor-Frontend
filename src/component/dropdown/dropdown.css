@@ -1,0 +1,19 @@
+.select_box {
+  outline: 0;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  margin: 0.4rem;
+  height: 80%;
+  max-width: 150px;
+  font-weight: bold;
+  border-radius: 0.28571429rem;
+}
+/* Remove IE arrow */
+.select_box::-ms-expand {
+  display: none;
+}
+
+.select_box {
+  flex: 1;
+  padding: 0.25rem 0.5em;
+  cursor: pointer;
+}

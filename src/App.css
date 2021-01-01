@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #232323;
+  height: 100vh;
+  /* font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace,
+    serif; */
+}
+
+.CodeMirror,
+.ReactCodeMirror {
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 90%;
+  grid-template-areas:
+    "Toolbar Input"
+    "Editor Input-box"
+    "Editor Output"
+    "Editor Output-box";
+  grid-template-columns: 74% 25%;
+  grid-template-rows: 60px 40% 60px 40%;
+  grid-gap: 10px;
+}
+
+.Toolbar {
+  grid-area: Toolbar;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: #7717d1cb;
+  /* background: rgb(78,73,73);
+  background: linear-gradient(53deg, rgba(78,73,73,1) 25%, rgba(119,23,209,0.968207351299895) 60%, rgba(177,171,182,1) 100%); */
+}
+.Input {
+  grid-area: Input;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: #7717d1cb;
+  border-radius: 5px;
+}
+.Editor {
+  grid-area: Editor;
+}
+.Input-box {
+  grid-area: Input-box;
+}
+.Output {
+  grid-area: Output;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: #7717d1cb;
+  border-radius: 5px;
+}
+.Output-box {
+  grid-area: Output-box;
+}

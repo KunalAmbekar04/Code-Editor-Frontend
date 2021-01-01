@@ -1,0 +1,19 @@
+.toolbar {
+  height: 100%;
+  width: 100%;
+  /* box-shadow: 1px 0px 5px #babebe; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.theme_tag {
+  line-height: 10px;
+  padding: 4px;
+  margin-left: auto;
+}
+
+.theme-txt {
+  color: #fff;
+  font-weight: bolder;
+}
